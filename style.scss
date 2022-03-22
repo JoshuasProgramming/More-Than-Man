@@ -8,10 +8,10 @@
     align-items:center;
     justify-content:space-around;
     flex-direction:row;
-    height:20vh;
+    height:25vh;
     background:#BE1E2D;
     width: -webkit-fill-available;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 5px solid #ffffff;
 
     .MAN-logo-text{
         display:flex;
@@ -25,7 +25,7 @@
 
         p{
             color: #ffffff;
-            font-size:8vw;
+            font-size:7vw;
             font-family: 'Mongolian Baiti' ,sans-serif; 
         }
 
@@ -48,7 +48,7 @@
     }
 
     a{
-        font-size:1.25vw;
+        font-size:1.65vw;
         font-family: 'Segoe UI Emoji' ,sans-serif; 
         color:#ffffff;
         font-weight:lighter;
@@ -76,6 +76,11 @@
     flex-direction: row;
     height:80vh;
     background: #BE1E2D;
+
+    img{
+        width:40%;
+        height:40%;
+    }
 
     .sub1-section1{
         background:#BE1E2D;
@@ -145,6 +150,10 @@
             }
         }
 
+        span{
+            margin:2%;
+        }
+
     }
 }
 
@@ -155,7 +164,7 @@
 }
 
 /* Phone devices */
-@media screen and (max-width:600px) { /*414px*/
+@media screen and (max-width:414px) and (max-height:915px) and (min-height:375px){ /*414px | 412px*/
 
     .nav{
         display:flex;
@@ -306,7 +315,7 @@
 }
 
 /* Tablet devices 768 - 912*/
-@media screen and (min-width:900px) and (max-width:912px) { 
+@media screen and (min-width:915px) and (max-width:912px) and (min-height:390px) and (max-height:1900px){ /*912px*/ 
     .nav{
         display:flex;
         align-items:center;
