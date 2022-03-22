@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 20vh;
+  background: #BE1E2D;
+  width: -webkit-fill-available;
+  border-bottom: 1px solid #ffffff;
+}
+
+.nav .MAN-logo-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #ffffff;
+  font-size: 8vw;
+  font-family: 'Mongolian Baiti' ,sans-serif;
+}
+
+.nav .MAN-logo-text p {
+  color: #ffffff;
+  font-size: 8vw;
+  font-family: 'Mongolian Baiti' ,sans-serif;
+}
+
+.nav .MAN-logo-text:hover {
+  -webkit-transition: ease-in-out 300ms;
+  transition: ease-in-out 300ms;
+  cursor: pointer;
+}
+
+.nav .rotate-A-in-MAN-logo-text {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-transition: ease-in-out 300ms;
+  transition: ease-in-out 300ms;
+}
+
+.nav .rotate-A-in-MAN-logo-text:hover {
+  -webkit-transition: ease-in-out 300ms;
+  transition: ease-in-out 300ms;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  cursor: pointer;
+}
+
+.nav a {
+  font-size: 1.25vw;
+  font-family: 'Segoe UI Emoji' ,sans-serif;
+  color: #ffffff;
+  font-weight: lighter;
+  background: transparent;
+  border-radius: 35px;
+  padding: 5px 30px 5px 30px;
+  border: 2px solid #ffffff;
+  -webkit-transition: ease-in-out 300ms;
+  transition: ease-in-out 300ms;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  cursor: pointer;
+  -webkit-transition: ease-in-out 300ms;
+  transition: ease-in-out 300ms;
+  color: #BE1E2D;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.section-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 80vh;
+  background: #BE1E2D;
+}
+
+.section-1 .sub1-section1 {
+  background: #BE1E2D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5%;
+  height: 5vh;
+}
+
+.section-1 .sub1-section1 h3 {
+  font-size: 4vw;
+  text-align: center;
+  font-family: 'Segoe UI Emoji' ,sans-serif;
+  color: #ffffff;
+  padding: 0% 0px 5% 0px;
+}
+
+.section-1 .sub1-section1 h2 {
+  font-size: 3.5vw;
+  text-align: center;
+  font-family: 'Mongolian Baiti' ,sans-serif;
+  color: #ffffff;
+  font-weight: unset;
+  padding: 0% 0% 2.5% 0%;
+}
+
+.section-1 .sub1-section1 .sub1-section1-youtube-btn {
+  font-size: 1.75vw;
+  font-family: 'Segoe UI Emoji' ,sans-serif;
+  font-weight: lighter;
+  border-radius: 35px;
+  padding: 1% 3% 1% 3%;
+  -webkit-transition: ease-in-out 300ms;
+  transition: ease-in-out 300ms;
+  text-align: center;
+  color: white;
+  background: transparent;
+  border: 1px solid #ffffff;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.section-1 .sub1-section1 .sub1-section1-youtube-btn:hover {
+  cursor: pointer;
+  -webkit-transition: ease-in-out 300ms;
+  transition: ease-in-out 300ms;
+  color: #BE1E2D;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.section-1 .sub1-section1 p {
+  padding: 2.5% 0% 2% 0%;
+  font-size: 1.75vw;
+  font-family: system-ui;
+  font-weight: unset;
+}
+
+.section-1 .sub1-section1 p a {
+  font-size: 1.75vw;
+  font-family: 'Segoe UI Emoji' ,sans-serif;
+  color: #ffffff;
+  font-weight: lighter;
+  background: transparent;
+  -webkit-transition: ease-in-out 300ms;
+  transition: ease-in-out 300ms;
+}
+
+.section-2 {
+  height: 88vh;
+  background: #ffffff;
+}
+/*# sourceMappingURL=style.css.map */

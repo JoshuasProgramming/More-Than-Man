@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.nav{
+	display:flex;
+    align-items:center;
+    justify-content:space-around;
+    flex-direction:row;
+    height:20vh;
+    background:#BE1E2D;
+    width: -webkit-fill-available;
+    border-bottom: 1px solid #ffffff;
+
+    .MAN-logo-text{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        flex-direction:row;
+
+        color: #ffffff;
+        font-size:8vw;
+        font-family: 'Mongolian Baiti' ,sans-serif; 
+
+        p{
+            color: #ffffff;
+            font-size:8vw;
+            font-family: 'Mongolian Baiti' ,sans-serif; 
+        }
+
+        &:hover{
+            transition: ease-in-out 300ms;
+            cursor: pointer;
+        }
+
+    }
+
+    .rotate-A-in-MAN-logo-text{
+        transform: rotate(90deg);
+        transition: ease-in-out 300ms;
+
+        &:hover{
+            transition: ease-in-out 300ms;
+            transform: rotate(-90deg);
+            cursor: pointer;
+        }
+    }
+
+    a{
+        font-size:1.25vw;
+        font-family: 'Segoe UI Emoji' ,sans-serif; 
+        color:#ffffff;
+        font-weight:lighter;
+        background:transparent;
+        border-radius:35px;
+        padding:5px 30px 5px 30px;
+        border:2px solid #ffffff;
+        transition: ease-in-out 300ms;
+        text-decoration: none;
+
+        &:hover{
+            cursor: pointer;
+            transition: ease-in-out 300ms;
+            color:#BE1E2D;
+            background:#ffffff;
+            border:1px solid #ffffff;
+        }
+    }
+}
+
+.section-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    height:80vh;
+    background: #BE1E2D;
+
+    .sub1-section1{
+        background:#BE1E2D;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        padding: 5%;
+
+        height:5vh;
+
+        h3{
+            font-size: 4vw;
+            text-align: center;
+            font-family: 'Segoe UI Emoji' ,sans-serif;
+            color: #ffffff;
+            padding:0% 0px 5% 0px;
+        }
+
+        h2{
+            font-size: 3.5vw;
+            text-align: center;
+            font-family: 'Mongolian Baiti' ,sans-serif;
+            color: #ffffff;
+            font-weight: unset; 
+            padding: 0% 0% 2.5% 0%;
+        }
+
+        .sub1-section1-youtube-btn{
+            font-size: 1.75vw;
+            font-family: 'Segoe UI Emoji' ,sans-serif;
+            font-weight: lighter;
+            border-radius: 35px;
+            padding: 1% 3% 1% 3%;
+            transition: ease-in-out 300ms;
+            text-align: center;
+            color:white;
+            background:transparent;
+            border:1px solid #ffffff;
+            font-weight: bolder;
+            text-decoration: none;
+    
+            &:hover{
+                cursor: pointer;
+                transition: ease-in-out 300ms;
+                color:#BE1E2D;
+                background:#ffffff;
+                border:1px solid #ffffff;
+            }
+        }
+
+
+        p{
+            padding: 2.5% 0% 2% 0%;
+            font-size: 1.75vw;
+            font-family: system-ui;
+            font-weight:unset;
+
+            a{
+                font-size: 1.75vw;
+                font-family: 'Segoe UI Emoji' ,sans-serif; 
+                color:#ffffff;
+                font-weight:lighter;
+                background:transparent;
+                transition: ease-in-out 300ms;
+        
+            }
+        }
+
+    }
+}
+
+.section-2{
+    height:88vh;
+    background:#ffffff;
+    
+}
